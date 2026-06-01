@@ -1,0 +1,74 @@
+Level 1: Super Beginner (Start here!)
+Sum of all even numbers in an array
+
+Count how many odd numbers are in an array
+
+Find the largest number in an array
+
+Find the smallest number in an array
+
+Reverse a string
+
+Check if a number is prime
+
+Find the factorial of a number
+
+Check if a string is a palindrome
+
+e.g. “madam” → true
+
+Find the sum of digits of a number
+
+e.g. 123 → 1 + 2 + 3 = 6
+
+Print numbers from 1 to N using a loop
+
+
+ Level 2: Slightly Tricky (Good Practice)
+Find the second largest number in an array
+
+Count vowels in a string
+
+Remove duplicates from an array
+
+Find the frequency of each element in an array
+
+Merge two arrays and remove duplicates
+
+Check if two strings are anagrams
+
+e.g. “listen” and “silent”
+
+Sort an array without using sort()
+
+Find the missing number in an array from 1 to N
+
+e.g. [1, 2, 4, 5] → 3
+
+Move all zeros to the end of an array
+
+Return a new array with only the unique values
+
+ Level 3: Logical Practice (Build Real Thinking)
+Fibonacci series up to N terms
+
+Find if a number is a perfect square
+
+Print a triangle pattern using *
+
+Check if a number is an Armstrong number
+
+153 → 1³ + 5³ + 3³ = 153
+
+Rotate an array by k steps
+
+Find all pairs in an array with a given sum
+
+Check if a number is a palindrome
+
+Find the GCD of two numbers
+
+Count the number of words in a string
+
+Convert the first letter of each word to uppercase
+

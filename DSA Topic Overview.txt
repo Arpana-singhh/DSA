@@ -1,0 +1,83 @@
+🟢 1. Basics (foundation — don’t overstay here)
+Variables, loops, functions
+Recursion (basic)
+Time & Space Complexity (Big-O) ← VERY important
+
+👉 If you skip this, you’ll write slow garbage code confidently.
+
+🟡 2. Arrays & Strings (MOST IMPORTANT START)
+Traversal, insertion, deletion
+Searching, sorting basics
+Subarray problems
+Patterns inside this:
+Two pointers
+Sliding window
+Prefix sum
+Kadane’s algorithm
+
+👉 60% of interview questions live here
+
+🟠 3. Hashing
+HashMap / Set
+Frequency count
+Lookup problems
+
+👉 This is where Medium problems start making sense
+
+🔵 4. Searching & Sorting
+Binary Search
+Merge Sort
+Quick Sort
+
+👉 Binary search is everywhere, learn it properly
+
+🟣 5. Linked List
+Reverse
+Cycle detection
+Merge
+
+👉 Interviewers love this for some reason
+
+🟤 6. Stack & Queue
+Stack (LIFO)
+Queue (FIFO)
+Monotonic stack
+
+👉 Used in tricky problems like “next greater element”
+
+🌳 7. Trees
+Binary Tree
+Binary Search Tree (BST)
+Traversals (inorder, preorder, postorder)
+
+👉 This is where people start crying a little
+
+🌐 8. Graphs
+BFS, DFS
+Shortest path (Dijkstra)
+Cycle detection
+
+👉 Feels scary, but patterns repeat a lot
+
+🔁 9. Recursion & Backtracking
+Subsets
+Permutations
+N-Queens
+
+👉 Basically “try everything and suffer efficiently”
+
+⚡ 10. Dynamic Programming (DP)
+Memoization
+Tabulation
+Knapsack
+LIS, LCS
+
+👉 Final boss. Everyone struggles here.
+
+🧩 11. Greedy Algorithms
+Activity selection
+Intervals
+Optimization problems
+🧪 12. Bit Manipulation (optional but useful)
+AND, OR, XOR
+Subsets using bits
