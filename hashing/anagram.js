@@ -3,14 +3,12 @@ function isAnagram(s, t) {
 
   let map = new Map();
 
-  // map={};
-
   // Step 1: count characters from first string
   for (let ch of s) {
-    map.set(ch, (map.get(l) || 0) + 1);
-
-    {l = 1,  t = 1, e = 1, n = 1}
+    map.set(ch, (map.get(ch) || 0) + 1);
   }
+
+  console.log(map);
 
   // Step 2: reduce using second string
   // silentl
@@ -18,7 +16,6 @@ function isAnagram(s, t) {
     if (!map.has(ch)) return false;
 
     map.set(ch, map.get(ch) - 1);
-    map.set(l, 1);
 
     if (map.get(ch) === 0) {
       map.delete(ch);
@@ -29,8 +26,6 @@ function isAnagram(s, t) {
   return map.size === 0;
 }
 
-
-// Test cases
 const str1 = "listenl";
 const str2 = "silentl";
 

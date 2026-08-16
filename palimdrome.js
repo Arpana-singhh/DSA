@@ -6,6 +6,7 @@ for (i = arr_split.length - 1 ; i >= 0 ; i--){
 }
 
 let result = rev_array.join("")
+console.log(result);
 
 if (result == arr){
     console.log("It is palimdrome " + result)
