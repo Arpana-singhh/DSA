@@ -1,24 +1,25 @@
 var longestCommonPrefix = function(strs, prefix) {
-    let wd = strs[0][0]
 
-    // for(let i = 1 ; i < strs.length; i++){
-    //   strs[i][0] !== wd;
-    //   return "";
-    // }
+    let wd = strs[0];
 
-    for (let j = 0; j < strs.length; j++) {
-       const test = strs[j][0];
-         if (!strs[j].startsWith(wd)) {
-           return prefix;
+    for (let i = 1; i < strs.length; i++) {
+
+        while (!strs[i].startsWith(wd)) {
+            wd = wd.slice(0, -1);
+
+            if (wd === "") {
+                return "";
+            }
         }
-        prefix = wd;
-        wd= wd + strs[j][j+1];
     }
-   
+
+    return wd;
 };
 
-let strs = ["flower","flow","floght"];
+let strs = ["flower", "flow", "flight"];
 
-let prefix="";
-const result =longestCommonPrefix(strs, prefix);
+let prefix = "";
+
+const result = longestCommonPrefix(strs, prefix);
+
 console.log("Longest common prefix:", result);
