@@ -5,24 +5,20 @@
 // * * * * * * * * *
 
 let n = 5;
-let ptrn = ""; 
-let pt =  (n * 2 - 1);
+let pattern = "";
 
-for (let i = 1 ; i <= n ; i++){
-    let start = Math.ceil(pt / 2) ;
-    for (let j = 1 ; j <= (n * 2 - 1) ; j++){
-        if (i == n || j >= start){
-            ptrn = ptrn + "* "
-        }
-        else {
-            ptrn = ptrn + " "
+for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= 2 * n - 1; j++) {
+        if (j >= n - i + 1 && j <= n + i - 1) {
+            pattern += "*";
+        } else {
+            pattern += " ";
         }
     }
-    pt = pt - 2;
-    ptrn = ptrn + "\n"
-   
+    pattern += "\n";
 }
-console.log(ptrn)
+
+console.log(pattern);
 
 5
 4-6

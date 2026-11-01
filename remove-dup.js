@@ -17,3 +17,4 @@ for (let i = 0; i < val.length; i++) {
 }
 
 console.log("Array after removing duplicates:", result);
+
