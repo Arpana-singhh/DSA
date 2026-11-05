@@ -5,7 +5,7 @@
 // You must write an algorithm with O(log n) runtime complexity.
 var search = function(nums, target) {
     let left = 0;
-    let right = nums.length;
+    let right = nums.length - 1;
     let mid ;
     while(left <= right){
         mid = Math.floor((left + right)/2);
@@ -25,5 +25,5 @@ var search = function(nums, target) {
 
 
 let nums = [-1,0,3,5,9,12]
-let target = 12
+let target = 15
 console.log(search(nums, target))

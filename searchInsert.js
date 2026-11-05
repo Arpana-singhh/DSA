@@ -24,7 +24,7 @@
     return left
  }
 
- console.log(searchInsert([1, 3, 4, 5],7))
+ console.log(searchInsert([1, 3, 4, 7],5))
 
 
 
