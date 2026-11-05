@@ -12,8 +12,7 @@ var reverse = function(x) {
             continue
         }else{
             res.push(arr[i])
-        }
-       
+        }   
     }
 
     let finalNum = Number(res.join(""))
